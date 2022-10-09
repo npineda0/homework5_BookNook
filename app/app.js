@@ -12,7 +12,7 @@ function route() {
         MODEL.changePage("home");
     } else {
         if(pageID == subPageID) {
-        MODEL.changePage(pageID, subPageID);
+        MODEL.changePage(pageID);
     } else {
         MODEL.changePage(pageID, subPageID);
     }

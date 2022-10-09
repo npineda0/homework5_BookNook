@@ -12,6 +12,13 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+#app {
+  margin: 0 auto;
+  min-height: 1000px;
+  width: 100%;
+  padding: 20px;
+}
+
 nav {
   height: 108px;
   width: 100%;
@@ -64,6 +71,65 @@ nav .navIconCart {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.home-top {
+  margin: 0 auto;
+  min-height: 500px;
+  width: 100%;
+  background-color: aqua;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.home-top .hero-img {
+  height: 400px;
+  background-image: url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-bottom {
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-bottom .bookSection {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 700px;
+  width: 500px;
+}
+.home-bottom .bookSection .bookImg {
+  margin: 0 auto;
+  text-align: center;
+  height: 491px;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo {
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+}
+.home-bottom .bookSection .bookInfo .bookTxt {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo .bookPrice {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
 }
 
 .abtSection {
@@ -226,6 +292,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0 auto;
 }
 footer .footerNav {
   display: flex;

@@ -1,14 +1,14 @@
 {
-  "name": "homework5_booknook",
+  "name": "y",
   "version": "1.0.0",
-  "description": "",
+  "description": "- You must create the Booknook site from an AdobeXD file found in Files > BookNook\r - Your home page must look identical to the prototype in all media, meaning it must be responsive.\r - You need to think about this being a fully dynamic site when it is completely finished, so set it up accordingly. HTML injection and MVC are a must.\r - You must simulate a log in and out of the website.\r - You must show all necessary user feedback. Log in, out, any errors, etc..\r - You will work as a team.\r - You must be able to add items to a cart.\r - Upload this to the web 4 server and Github and submit the Github link to this project.",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
     "serve": "live-server",
-    "compile sass": "sass scss/styles.scss css/styles.css -w"
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +18,13 @@
   },
   "devDependencies": {
     "sass": "^1.55.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npineda0/homework5_BookNook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/npineda0/homework5_BookNook/issues"
+  },
+  "homepage": "https://github.com/npineda0/homework5_BookNook#readme"
 }
