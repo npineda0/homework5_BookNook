@@ -66,6 +66,142 @@ nav .navIconCart {
   background-position: center;
 }
 
+.home-top {
+  margin: 0 auto;
+  min-height: 300px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 80px;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-top .hero-img {
+  height: 400px;
+  background-image: url(../images/home-hero.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.home-top .hero-img .hero-text {
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+}
+.home-top .hero-img .hero-text h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Segoe UI;
+  color: #fff;
+}
+.home-top .hero-img .hero-text p {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 15px;
+  font-family: Segoe UI;
+  color: #fff;
+}
+.home-top .hero-text2 {
+  visibility: hidden;
+}
+.home-top .hero-text2 h1 {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Segoe UI;
+  color: #fff;
+}
+.home-top .hero-text2 p {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 15px;
+  font-family: Segoe UI;
+  color: #fff;
+}
+
+.home-bottom {
+  min-height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.home-bottom .bookSection {
+  margin: 0 auto;
+  text-align: center;
+  min-height: 700px;
+  width: 500px;
+  padding-bottom: 200px;
+}
+.home-bottom .bookSection .bookImg {
+  margin: 0 auto;
+  text-align: center;
+  height: 491px;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo {
+  margin: 0 auto;
+  text-align: center;
+  width: 280px;
+}
+.home-bottom .bookSection .bookInfo .bookTxt {
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo .bookPrice {
+  margin: 0 auto;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.home-bottom .bookSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+  .home-top {
+    margin: 0 auto;
+    min-height: 300px;
+    width: 700px;
+    background-color: #587C83;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .home-top .hero-img {
+    width: 400px;
+    height: 400px;
+    background-image: url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .home-top .hero-img .hero-text {
+    visibility: hidden;
+  }
+  .home-top .hero-text2 {
+    z-index: 1;
+  }
+  .home-bottom {
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    flex-direction: column;
+  }
+  .home-bottom .bookSection .bookInfo {
+    width: 100%;
+  }
+}
 .abtSection {
   text-align: center;
   margin-top: 180px;

@@ -7,6 +7,10 @@
     padding-bottom: 100px;
     padding-left: 80px;
     padding-right: 80px;
+    
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
 
     .hero-img{
         // width: 1500px;
@@ -15,7 +19,49 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
+        position: relative;
+        .hero-text{
+            position: absolute;
+            right: 100px;
+            bottom: 100px;
+        h1{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Segoe UI;
+            color: #fff;
+        }
+        p{
+            text-transform: uppercase;
+            text-align: left;
+            font-size: 15px;
+            font-family: Segoe UI;
+            color: #fff;
 
+        }
+
+        }
+
+    }
+    .hero-text2{
+     visibility: hidden;
+     h1{
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: Segoe UI;
+        color: #fff;
+    }
+    p{
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 15px;
+        font-family: Segoe UI;
+        color: #fff;
+
+    }
     }
 
 }
@@ -32,6 +78,7 @@
         text-align: center;
         min-height: 700px;
         width: 500px;
+        padding-bottom: 200px;
         // background-color: aqua;
      
         .bookImg {
@@ -64,6 +111,75 @@
                 height: 68px;
                 width: 222px;
                 background-color: #fff;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+
+    .home-top{
+        margin: 0 auto;
+        min-height: 300px;
+        width: 700px;
+        background-color: #587C83;
+       margin-top: 100px;
+        
+         display: flex;
+         align-items: center; 
+         justify-content: space-evenly;
+    
+        .hero-img{
+            width: 400px;
+            height: 400px;
+            background-image: url(../images/home-hero.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+            .hero-text{
+                visibility: hidden;
+
+            }
+    
+        }
+        .hero-text2{
+            
+        z-index: 1;
+
+        }
+        
+    
+    }
+
+    .home-bottom{
+        margin: 0 auto;
+        padding-top: 100px;
+        
+        text-align: center;
+        flex-direction: column;
+        .bookSection {
+           
+         
+            .bookImg {
+                
+            }
+    
+    
+            .bookInfo {
+                width: 100%;
+    
+                .bookTxt {
+            
+                }
+    
+                .bookPrice {
+                    
+                }
+    
+                .booksBtn {
+                    
+                }
             }
         }
     }
