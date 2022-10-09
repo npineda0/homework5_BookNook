@@ -1,0 +1,45 @@
+.abtSection {
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 213px;
+    display: flex;
+    //align-items: center;
+    justify-content: space-evenly;
+
+    .abtImg1 {
+        height: 587px;
+        width: 393px;
+        background-image: url("../images/about-photo.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .abtImg2 {
+        height: 587px;
+        width: 393px;
+        background-image: url("../images/about-photo-two.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .abtTxt {
+        width: 1134px;
+
+        .abtHeader {
+            font-size: 32px;
+            margin-top: -40px;
+        }
+
+        .abtSubHead {
+            font-size: 26px;
+            margin-top: 41px;
+        }
+
+        .abtInfo {
+            text-align: left;
+            margin-top: 70px;
+        }
+    }
+}

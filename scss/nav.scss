@@ -1,0 +1,60 @@
+nav {
+    height: 108px;
+    //max-width: 1920px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    .logo {
+        height: 73px;
+        width: 73px;
+        background-image: url("../images/books-stack-of-three.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-top: 22px;
+    }
+
+    .logoTxt {
+        margin-top: 62px;
+    }
+
+    input {
+        margin-top: 35px;
+        height: 44px;
+        width: 604px;
+        background-color: #587C83;
+        border: 1px solid #587C83;
+        opacity: .35;
+    }
+    ::placeholder {
+        color: #000;
+    }
+
+    a {
+        margin-top: 44px;
+        text-decoration: none;
+        color: #000;
+    }
+
+    .navIconAcc {
+        height: 47px;
+        width: 47px;
+        margin-top: 41px;
+        background-image: url("../images/user.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .navIconCart {
+        height: 47px;
+        width: 47px;
+        margin-top: 41px;
+        background-image: url("../images/shopping-cart.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}

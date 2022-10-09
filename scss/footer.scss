@@ -1,0 +1,55 @@
+footer {
+    background-color: #587C83;
+    height: 92px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    .footerNav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+        p {
+            margin-right: 40px;
+        }
+        
+    }
+    
+    .footerIcons {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        
+        .facebookIcon {
+            height: 44px;
+            width: 44px;
+            margin-right: 40px;
+            background-image: url("../images/facebook_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .instaIcon {
+            height: 44px;
+            width: 44px;
+            margin-right: 40px;
+            background-image: url("../images/instagram_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .twitterIcon {
+            height: 44px;
+            width: 44px;
+            background-image: url("../images/twitter_w.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+    }
+}

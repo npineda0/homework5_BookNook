@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin-bottom: 16px;
+}
+
+nav {
+  height: 108px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+nav .logo {
+  height: 73px;
+  width: 73px;
+  background-image: url("../images/books-stack-of-three.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 22px;
+}
+nav .logoTxt {
+  margin-top: 62px;
+}
+nav input {
+  margin-top: 35px;
+  height: 44px;
+  width: 604px;
+  background-color: #587C83;
+  border: 1px solid #587C83;
+  opacity: 0.35;
+}
+nav ::placeholder {
+  color: #000;
+}
+nav a {
+  margin-top: 44px;
+  text-decoration: none;
+  color: #000;
+}
+nav .navIconAcc {
+  height: 47px;
+  width: 47px;
+  margin-top: 41px;
+  background-image: url("../images/user.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+nav .navIconCart {
+  height: 47px;
+  width: 47px;
+  margin-top: 41px;
+  background-image: url("../images/shopping-cart.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.abtSection {
+  text-align: center;
+  margin-top: 180px;
+  margin-bottom: 213px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.abtSection .abtImg1 {
+  height: 587px;
+  width: 393px;
+  background-image: url("../images/about-photo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.abtSection .abtImg2 {
+  height: 587px;
+  width: 393px;
+  background-image: url("../images/about-photo-two.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.abtSection .abtTxt {
+  width: 1134px;
+}
+.abtSection .abtTxt .abtHeader {
+  font-size: 32px;
+  margin-top: -40px;
+}
+.abtSection .abtTxt .abtSubHead {
+  font-size: 26px;
+  margin-top: 41px;
+}
+.abtSection .abtTxt .abtInfo {
+  text-align: left;
+  margin-top: 70px;
+}
+
+.booksHeader {
+  margin-top: 180px;
+  font-size: 26px;
+  margin-left: 77px;
+}
+
+.bookHeader {
+  font-size: 26px;
+  margin-left: 77px;
+}
+
+.booksRow {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.booksRow .bookSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.booksRow .bookSection .bookSetImg {
+  width: 213px;
+  height: 230px;
+}
+.booksRow .bookSection .bookImg {
+  height: 313px;
+  width: 208px;
+}
+.booksRow .bookSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.booksRow .bookSection .bookInfo .bookTxt {
+  margin-bottom: 58px;
+}
+.booksRow .bookSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.booksRow .bookSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
+}
+
+.blogBackgroundClr {
+  background-color: #587C83;
+  width: 1464px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  display: flex;
+  align-items: center;
+}
+.blogBackgroundClr .blogImg {
+  width: 250px;
+  height: 380px;
+  margin-left: 88px;
+}
+.blogBackgroundClr .blogHalfImg {
+  width: 622px;
+  height: 463px;
+}
+.blogBackgroundClr .blogInfo {
+  width: 418px;
+  margin-left: 197px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackgroundClr .blogInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogInfo .blogInfoTxt {
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogInfo .blogBtn {
+  width: 222px;
+  height: 68px;
+  background-color: #587C83;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+.blogBackgroundClr .blogHalfInfo {
+  width: 418px;
+  margin-left: 250px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoEReadHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+  width: 444px;
+}
+.blogBackgroundClr .blogHalfInfo .blogInfoTxt {
+  margin-bottom: 60px;
+}
+.blogBackgroundClr .blogHalfInfo .blogBtn {
+  width: 222px;
+  height: 68px;
+  background-color: #587C83;
+  border: 1px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #587C83;
+  height: 92px;
+  width: 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+footer .footerNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footerNav p {
+  margin-right: 40px;
+}
+footer .footerIcons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+footer .footerIcons .facebookIcon {
+  height: 44px;
+  width: 44px;
+  margin-right: 40px;
+  background-image: url("../images/facebook_w.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer .footerIcons .instaIcon {
+  height: 44px;
+  width: 44px;
+  margin-right: 40px;
+  background-image: url("../images/instagram_w.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer .footerIcons .twitterIcon {
+  height: 44px;
+  width: 44px;
+  background-image: url("../images/twitter_w.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
