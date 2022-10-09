@@ -347,6 +347,10 @@ nav .navIconCart {
   color: #fff;
   cursor: pointer;
 }
+.blogBackgroundClr .blogHalfInfo .blogBtn a {
+  color: white;
+  text-decoration: none;
+}
 
 footer {
   background-color: #587C83;
