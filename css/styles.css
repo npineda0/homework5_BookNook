@@ -419,6 +419,12 @@ nav .navIconCart {
   padding-bottom: 200px;
 }
 
+.cart {
+  margin: 0 auto;
+  min-height: 1000px;
+  width: 100%;
+}
+
 footer {
   background-color: #587C83;
   height: 92px;
