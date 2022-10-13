@@ -419,6 +419,56 @@ nav .navIconCart {
   padding-bottom: 200px;
 }
 
+.blogBackground {
+  background-image: linear-gradient(rgba(88, 124, 131, 0.4), rgba(88, 124, 131, 0.4)), url(../images/book-club-hero.jpg);
+  width: 1464px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.blogBackground .blogInfo {
+  margin: 0 auto;
+  padding-top: 150px;
+  width: 700px;
+  text-align: center;
+  color: #fff;
+}
+.blogBackground .blogInfo .blogInfoHeader {
+  font-size: 32px;
+  margin-bottom: 60px;
+}
+.blogBackground .blogInfo .blogInfoTxt {
+  font-size: 22px;
+  margin-bottom: 60px;
+}
+
+.blog-section {
+  width: 1464px;
+  min-height: 463px;
+  margin: 0 auto;
+  margin-top: 117px;
+  margin-bottom: 123px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog-section img {
+  margin: 0 auto;
+  text-align: center;
+  height: 463px;
+}
+.blog-section .blog-text p {
+  padding-left: 20px;
+  text-align: left;
+  font-size: 15px;
+  font-family: Segoe UI;
+  color: #000;
+}
+
 .cart {
   margin: 0 auto;
   min-height: 1000px;
