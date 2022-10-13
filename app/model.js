@@ -54,7 +54,7 @@ var bookList = [
 export function changePage(pageID, callback) {
 
     if (pageID == '' || pageID == "home") {
-        $.get(`pages/home.html`, function (data) {
+        $.get(`pages/home/home.html`, function (data) {
             // console.log('data ' + data);
              $('#app').html(data);
              callback();
@@ -82,7 +82,7 @@ export function changePage(pageID, callback) {
          callback();
             });
         } else {
-            $.get(`pages/${pageID}.html`, function (data) {
+            $.get(`pages/${pageID}/${pageID}.html`, function (data) {
                 console.log('data ' + data);
                 $('#app').html(data);
                 $.each(cart, function(idx, cartItem){
