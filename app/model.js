@@ -20,7 +20,6 @@ export function changePage(pageID, subPageID){
         if(error.status == "404") {
             alert("Page cannot be found")
         }
-        // + concantinates 
         console.log("error", error.status);
     });
 }
