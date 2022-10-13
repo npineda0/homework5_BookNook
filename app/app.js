@@ -19,15 +19,12 @@
 //     }
 // }
 
-<<<<<<< HEAD
-=======
 // function initListeners () {
 //     //$("nav a").click((e) => {
 //       //  console.log("click "+ btnID);
 //    // });
 // }
 
->>>>>>> 237d0b51ae81b59d196d13859e0a81caa43d4e14
 //initialize listeners on url
 function initApp() {
     //event listneres, listen dor hash change
