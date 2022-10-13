@@ -352,7 +352,7 @@ nav .navIconCart {
   text-decoration: none;
 }
 
-.blogBackground {
+.blogBackground2 {
   background-image: linear-gradient(rgba(88, 124, 131, 0.4), rgba(88, 124, 131, 0.4)), url(../images/february-favorites-hero.jpg);
   width: 1464px;
   height: 463px;
@@ -363,22 +363,22 @@ nav .navIconCart {
   background-size: cover;
   background-position: center;
 }
-.blogBackground .blogInfo {
+.blogBackground2 .blogInfo {
   margin: 0 auto;
   padding-top: 150px;
   width: 418px;
   text-align: center;
   color: #fff;
 }
-.blogBackground .blogInfo .blogInfoHeader {
+.blogBackground2 .blogInfo .blogInfoHeader {
   font-size: 32px;
   margin-bottom: 60px;
 }
-.blogBackground .blogInfo .blogInfoTxt {
+.blogBackground2 .blogInfo .blogInfoTxt {
   font-size: 22px;
   margin-bottom: 60px;
 }
-.blogBackground .blogInfo p {
+.blogBackground2 .blogInfo p {
   font-size: 12px;
 }
 
@@ -419,7 +419,7 @@ nav .navIconCart {
   padding-bottom: 200px;
 }
 
-.blogBackground {
+.blogBackground1 {
   background-image: linear-gradient(rgba(88, 124, 131, 0.4), rgba(88, 124, 131, 0.4)), url(../images/book-club-hero.jpg);
   width: 1464px;
   height: 463px;
@@ -430,18 +430,18 @@ nav .navIconCart {
   background-size: cover;
   background-position: center;
 }
-.blogBackground .blogInfo {
+.blogBackground1 .blogInfo {
   margin: 0 auto;
   padding-top: 150px;
   width: 900px;
   text-align: center;
   color: #fff;
 }
-.blogBackground .blogInfo .blogInfoHeader {
+.blogBackground1 .blogInfo .blogInfoHeader {
   font-size: 32px;
   margin-bottom: 60px;
 }
-.blogBackground .blogInfo .blogInfoTxt {
+.blogBackground1 .blogInfo .blogInfoTxt {
   font-size: 22px;
   margin-bottom: 60px;
 }
