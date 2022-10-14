@@ -82,16 +82,16 @@ function initSubmitListener() {
         let pw = $("#pw").val();
 
         if(fn == ''){
-            alert ('enter first name');
+            alert ('Enter first name.');
 
         }else if (ln == ''){
-            alert ('enter last name');
+            alert ('Enter last name.');
 
         }else if (em == '') {
-            alert ('enter email');
+            alert ('Enter email.');
 
         }else if (pw == '') {
-            alert ('enter password');
+            alert ('Enter password.');
         } else{
             console.log("hello");
             let userObj = {
@@ -105,6 +105,7 @@ function initSubmitListener() {
             MODEL.setUserInfo(userObj);
         }
     });
+
     }
 
 
