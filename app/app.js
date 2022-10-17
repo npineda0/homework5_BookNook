@@ -45,7 +45,7 @@ function changeRoute() {
 let hashTag = window.location.hash;
  let pageID = hashTag.replace('#', '');
   console.log(hashTag + ' ' + pageID);
-  if(pageID == "" || pageID == "home"){
+  if(pageID == "" || pageID == "home" || pageID == "account"){
     MODEL.changePage(pageID, initSubmitListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
@@ -76,8 +76,9 @@ function buyNow(){
 // }
 
 function initSubmitListener() {
-    console.log("submit");
     $("#submit").on('click', function (e){
+        console.log("submit");
+
         let fn = $("#fName").val();
         let ln = $("#lName").val();
         let em = $("#email").val();

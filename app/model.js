@@ -121,11 +121,12 @@ export function changePage(pageID, callback) {
          } )
          callback();
             });
-        } else if (pageID == "blog"){
-          $.get(`pages/${pageID}/${pageID}.html`,
+        } else if (pageID == "account"){
+          $.get(`pages/account/account.html`,
           function(data){
               // console.log('data ' + data);
              $('#app').html(data);
+             callback();
 
           });
       }else {
