@@ -79,8 +79,8 @@ function initLoginListener() {
     $("#login").on('click', function (e){
         console.log("login");
 
-        let le = $("#lg-email").val();
-        let lp = $("#lg-pw").val();
+        let le = $("#lgEmail").val();
+        let lp = $("#lgPw").val();
 
         if(le == ''){
             alert ('Enter email.');
