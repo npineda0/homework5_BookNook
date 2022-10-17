@@ -156,10 +156,10 @@ export function setUserInfo(userObject) {
   console.log(userInfo);
 }
 
-export function setUserInfo2(userObject) {
-  userInfo2 = userObject;
-  console.log(userInfo2);
-}
+// export function setLoginInfo(userLogin) {
+//   loginInfo = userLogin;
+//   console.log(loginInfo);
+// }
 
 export function addToCart (bookIndex){
     cart.push(bookIndex);

@@ -75,6 +75,32 @@ function buyNow(){
 //     console.log(fileName + ' ' +log);
 // }
 
+function initLoginListener() {
+    $("#login").on('click', function (e){
+        console.log("login");
+
+        let le = $("#lg-email").val();
+        let lp = $("#lg-pw").val();
+
+        if(le == ''){
+            alert ('Enter email.');
+
+        }else if (lp == ''){
+            alert ('Enter password.');
+        } else{
+            console.log("hi");
+            let userLogin = {
+                email: le,
+                password: lp,
+
+            };
+
+            MODEL.setUserInfo(userObj);
+        }
+    });
+
+    }
+
 function initSubmitListener() {
     $("#submit").on('click', function (e){
         console.log("submit");
@@ -111,31 +137,7 @@ function initSubmitListener() {
 
     }
 
-    function initLoginListener() {
-        $("#login").on('click', function (e){
-            console.log("login");
-    
-            let le = $("#lg-email").val();
-            let lp = $("#lg-pw").val();
-    
-            if(le == ''){
-                alert ('Enter email.');
-    
-            }else if (lp == ''){
-                alert ('Enter password.');
-            } else{
-                console.log("hi");
-                let userObj = {
-                    email: le,
-                    password: lp,
-    
-                };
-    
-                MODEL.setUserInfo2(userObj);
-            }
-        });
-    
-        }
+ 
 
     
 
