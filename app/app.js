@@ -42,16 +42,22 @@
 import * as MODEL from "./model.js";
 
 function changeRoute() {
-let hashTag = window.location.hash;
- let pageID = hashTag.replace('#', '');
+    let hashTag = window.location.hash;
+    let pageID = hashTag.replace('#', '');
+    /*
+    let pageIDArray= pageID.split("/");
+    pageID = pageIDArray[0];
+    let subPageID = pageIDArray[1];
+    */
+
   console.log(hashTag + ' ' + pageID);
   if(pageID == "" || pageID == "home" || pageID == "account"){
     MODEL.changePage(pageID, initSubmitListener, initLoginListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
-  } else if (pageID == "blog"){
-    MODEL.changePage(pageID);
-  }else{
+  } /*else if(pageID == subPageID) {
+    MODEL.changePage(pageID, subPageID);
+  } */else{
     MODEL.changePage(pageID);
   }
 

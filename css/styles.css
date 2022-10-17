@@ -252,30 +252,123 @@ nav .navIconCart {
   align-items: center;
   justify-content: space-around;
 }
-.booksRow .bookSection {
+.booksRow .bookSetSection {
   display: flex;
   margin-bottom: 310px;
 }
-.booksRow .bookSection .bookSetImg {
+.booksRow .bookSetSection .bookSetImg {
   width: 213px;
   height: 230px;
 }
-.booksRow .bookSection .bookImg {
+.booksRow .bookSetSection .bookImg {
   height: 313px;
   width: 208px;
 }
-.booksRow .bookSection .bookInfo {
+.booksRow .bookSetSection .bookInfo {
   width: 280px;
   margin-left: 54px;
 }
-.booksRow .bookSection .bookInfo .bookTxt {
+.booksRow .bookSetSection .bookInfo .bookTxt {
   margin-bottom: 58px;
 }
-.booksRow .bookSection .bookInfo .bookPrice {
+.booksRow .bookSetSection .bookInfo .bookPrice {
   font-weight: bold;
   margin-bottom: 35px;
 }
-.booksRow .bookSection .bookInfo .booksBtn {
+.booksRow .bookSetSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
+}
+
+.booksRow2 {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.booksRow2 .bookSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.booksRow2 .bookSection .bookImg {
+  height: 313px;
+  width: 208px;
+}
+.booksRow2 .bookSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.booksRow2 .bookSection .bookInfo .bookTxt {
+  margin-bottom: 58px;
+}
+.booksRow2 .bookSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.booksRow2 .bookSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
+}
+
+.booksRow3 {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.booksRow3 .bookSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.booksRow3 .bookSection .bookImg {
+  height: 313px;
+  width: 208px;
+}
+.booksRow3 .bookSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.booksRow3 .bookSection .bookInfo .bookTxt {
+  margin-bottom: 58px;
+}
+.booksRow3 .bookSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.booksRow3 .bookSection .bookInfo .booksBtn {
+  height: 68px;
+  width: 222px;
+  background-color: #fff;
+}
+
+.booksRow4 {
+  margin-top: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.booksRow4 .bookSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.booksRow4 .bookSection .bookImg {
+  height: 313px;
+  width: 208px;
+}
+.booksRow4 .bookSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.booksRow4 .bookSection .bookInfo .bookTxt {
+  margin-bottom: 58px;
+}
+.booksRow4 .bookSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+.booksRow4 .bookSection .bookInfo .booksBtn {
   height: 68px;
   width: 222px;
   background-color: #fff;
@@ -532,6 +625,80 @@ nav .navIconCart {
   margin: 0 auto;
   min-height: 1000px;
   width: 100%;
+}
+.cart .items {
+  margin-top: 267px;
+  margin-left: 135px;
+}
+.cart .items .bookSetSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.cart .items .bookSetSection .bookSetImg {
+  width: 213px;
+  height: 230px;
+}
+.cart .items .bookSetSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.cart .items .bookSetSection .bookInfo .bookTitle {
+  font-weight: bold;
+  margin-bottom: 58px;
+}
+.cart .items .bookSetSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-top: -42px;
+}
+.cart .items .bookSetSection .bookInfo .bookStock {
+  margin-top: -10px;
+}
+.cart .items .bookSetSection .bookInfo .bookQty {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.cart .items .bookSetSection .bookInfo .bookQty .change {
+  text-decoration: underline;
+}
+.cart .items .bookSetSection .bookInfo .bookQty .delete {
+  text-decoration: underline;
+}
+.cart .items .bookSection {
+  display: flex;
+  margin-bottom: 310px;
+}
+.cart .items .bookSection .bookImg {
+  height: 313px;
+  width: 208px;
+}
+.cart .items .bookSection .bookInfo {
+  width: 280px;
+  margin-left: 54px;
+}
+.cart .items .bookSection .bookInfo .bookTitle {
+  font-weight: bold;
+  margin-bottom: 58px;
+}
+.cart .items .bookSection .bookInfo .bookPrice {
+  font-weight: bold;
+  margin-top: -42px;
+}
+.cart .items .bookSection .bookInfo .bookStock {
+  margin-top: -10px;
+}
+.cart .items .bookSection .bookInfo .bookQty {
+  margin-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+.cart .items .bookSection .bookInfo .bookQty .change {
+  text-decoration: underline;
+}
+.cart .items .bookSection .bookInfo .bookQty .delete {
+  text-decoration: underline;
 }
 
 footer {
