@@ -4,4 +4,99 @@
     width: 100%;
     // background-color: blue;
     // width: 100%;
+    
+    .items {
+        margin-top: 267px;
+        margin-left: 135px;
+        .bookSetSection {
+            display: flex;
+            margin-bottom: 310px;
+            //align-items: center;
+            //justify-content: space-evenly;
+            
+            .bookSetImg {
+                width: 213px;
+                height: 230px;
+            }
+    
+            .bookInfo {
+                width: 280px;
+                margin-left: 54px;
+    
+                .bookTitle {
+                    font-weight: bold;
+                    margin-bottom: 58px;
+                }
+    
+                .bookPrice {
+                    font-weight: bold;
+                    margin-top: -42px;
+                }
+    
+                .bookStock {
+                    margin-top: -10px;
+                }
+
+                .bookQty {
+                    margin-top: 48px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 150px;
+
+                    .change {
+                        text-decoration: underline;
+                    }
+
+                    .delete {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .bookSection {
+            display: flex;
+            margin-bottom: 310px;
+            //align-items: center;
+            //justify-content: space-evenly;
+    
+            .bookImg {
+                height: 313px;
+                width: 208px;
+            }
+    
+            .bookInfo {
+                width: 280px;
+                margin-left: 54px;
+    
+                .bookTitle {
+                    font-weight: bold;
+                    margin-bottom: 58px;
+                }
+    
+                .bookPrice {
+                    font-weight: bold;
+                    margin-top: -42px;
+                }
+
+                .bookStock {
+                    margin-top: -10px;
+                }
+
+                .bookQty {
+                    margin-top: 48px;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 150px;
+
+                    .change {
+                        text-decoration: underline;
+                    }
+
+                    .delete {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
 }
