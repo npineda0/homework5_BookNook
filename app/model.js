@@ -156,6 +156,11 @@ export function setUserInfo(userObject) {
   console.log(userInfo);
 }
 
+export function setUserInfo2(userObject) {
+  userInfo2 = userObject;
+  console.log(userInfo2);
+}
+
 export function addToCart (bookIndex){
     cart.push(bookIndex);
     $("#cartCount").html(cart.length.toString ());

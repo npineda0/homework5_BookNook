@@ -46,7 +46,7 @@ let hashTag = window.location.hash;
  let pageID = hashTag.replace('#', '');
   console.log(hashTag + ' ' + pageID);
   if(pageID == "" || pageID == "home" || pageID == "account"){
-    MODEL.changePage(pageID, initSubmitListener);
+    MODEL.changePage(pageID, initSubmitListener, initLoginListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
   } else if (pageID == "blog"){
@@ -110,6 +110,34 @@ function initSubmitListener() {
     });
 
     }
+
+    function initLoginListener() {
+        $("#login").on('click', function (e){
+            console.log("login");
+    
+            let le = $("#lg-email").val();
+            let lp = $("#lg-pw").val();
+    
+            if(le == ''){
+                alert ('Enter email.');
+    
+            }else if (lp == ''){
+                alert ('Enter password.');
+            } else{
+                console.log("hi");
+                let userObj = {
+                    email: le,
+                    password: lp,
+    
+                };
+    
+                MODEL.setUserInfo2(userObj);
+            }
+        });
+    
+        }
+
+    
 
 
 
