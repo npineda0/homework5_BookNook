@@ -121,7 +121,14 @@ export function changePage(pageID, callback) {
          } )
          callback();
             });
-        } else {
+        } else if (pageID == "blog"){
+          $.get(`pages/${pageID}/${pageID}.html`,
+          function(data){
+              // console.log('data ' + data);
+             $('#app').html(data);
+
+          });
+      }else {
             $.get(`pages/${pageID}/${pageID}.html`, function (data) {
                 console.log('data ' + data);
                 $('#app').html(data);

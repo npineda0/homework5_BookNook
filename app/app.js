@@ -49,7 +49,9 @@ let hashTag = window.location.hash;
     MODEL.changePage(pageID, initSubmitListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
-  } else{
+  } else if (pageID == "blog"){
+    MODEL.changePage(pageID);
+  }else{
     MODEL.changePage(pageID);
   }
 
