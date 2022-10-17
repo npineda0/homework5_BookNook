@@ -51,8 +51,8 @@ function changeRoute() {
     */
 
   console.log(hashTag + ' ' + pageID);
-  if(pageID == "" || pageID == "home"){
-    MODEL.changePage(pageID, initSubmitListener);
+  if(pageID == "" || pageID == "home" || pageID == "account"){
+    MODEL.changePage(pageID, initSubmitListener, initLoginListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
   } /*else if(pageID == subPageID) {
@@ -81,9 +81,36 @@ function buyNow(){
 //     console.log(fileName + ' ' +log);
 // }
 
+function initLoginListener() {
+    $("#login").on('click', function (e){
+        console.log("login");
+
+        let le = $("#lg-email").val();
+        let lp = $("#lg-pw").val();
+
+        if(le == ''){
+            alert ('Enter email.');
+
+        }else if (lp == ''){
+            alert ('Enter password.');
+        } else{
+            console.log("hi");
+            let userLogin = {
+                email: le,
+                password: lp,
+
+            };
+
+            MODEL.setUserInfo(userObj);
+        }
+    });
+
+    }
+
 function initSubmitListener() {
-    console.log("submit");
     $("#submit").on('click', function (e){
+        console.log("submit");
+
         let fn = $("#fName").val();
         let ln = $("#lName").val();
         let em = $("#email").val();
@@ -115,6 +142,10 @@ function initSubmitListener() {
     });
 
     }
+
+ 
+
+    
 
 
 

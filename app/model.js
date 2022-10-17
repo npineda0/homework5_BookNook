@@ -303,6 +303,11 @@ export function setUserInfo(userObject) {
   console.log(userInfo);
 }
 
+// export function setLoginInfo(userLogin) {
+//   loginInfo = userLogin;
+//   console.log(loginInfo);
+// }
+
 export function addToCart (bookIndex){
     cart.push(bookIndex);
     $("#cartCount").html(cart.length.toString ());
