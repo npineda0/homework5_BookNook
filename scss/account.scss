@@ -1,0 +1,73 @@
+.account{
+    min-height: 700px;
+     display: flex;
+     align-items: center; 
+     justify-content: space-evenly;
+
+    .login-in{
+
+        h1{
+            font-size: 25px;
+            font-family: Segoe UI;
+        }
+        height: 400px;
+        width: 200px;
+        // background-color: aqua;
+        input{
+            outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin-bottom: 10px;
+  font-family: Segoe UI;
+  font-size: 15px;
+        }
+        .submit{
+            margin: 0 auto;
+            height: 45px;
+    width: 170px;
+    background-color: #587C83;
+    color: white;
+
+    border-color: #587c83;
+        }
+
+    }
+
+    .sign-up{
+
+        h1{
+            font-size: 25px;
+            font-family: Segoe UI;
+        }
+
+        p{
+            font-size: 15px;
+            font-family: Segoe UI;
+
+        }
+        height: 500px;
+        width: 200px;
+        // background-color: aqua;
+        
+        input{
+            font-family: Segoe UI;
+            font-size: 15px;
+            outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin-bottom: 10px;
+        }
+
+       
+           .submit{
+            margin: 0 auto;
+                height: 45px;
+        width: 170px;
+        background-color: #587C83;
+        color: white;
+        border-color: #587c83;
+            }
+        
+
+    }
+}

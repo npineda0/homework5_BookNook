@@ -469,6 +469,65 @@ nav .navIconCart {
   color: #000;
 }
 
+.account {
+  min-height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.account .login-in {
+  height: 400px;
+  width: 200px;
+}
+.account .login-in h1 {
+  font-size: 25px;
+  font-family: Segoe UI;
+}
+.account .login-in input {
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin-bottom: 10px;
+  font-family: Segoe UI;
+  font-size: 15px;
+}
+.account .login-in .submit {
+  margin: 0 auto;
+  height: 45px;
+  width: 170px;
+  background-color: #587C83;
+  color: white;
+  border-color: #587c83;
+}
+.account .sign-up {
+  height: 500px;
+  width: 200px;
+}
+.account .sign-up h1 {
+  font-size: 25px;
+  font-family: Segoe UI;
+}
+.account .sign-up p {
+  font-size: 15px;
+  font-family: Segoe UI;
+}
+.account .sign-up input {
+  font-family: Segoe UI;
+  font-size: 15px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  margin-bottom: 10px;
+}
+.account .sign-up .submit {
+  margin: 0 auto;
+  height: 45px;
+  width: 170px;
+  background-color: #587C83;
+  color: white;
+  border-color: #587c83;
+}
+
 .cart {
   margin: 0 auto;
   min-height: 1000px;
