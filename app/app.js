@@ -52,7 +52,7 @@ function changeRoute() {
 
   console.log(hashTag + ' ' + pageID);
   if(pageID == "" || pageID == "home" || pageID == "account"){
-    MODEL.changePage(pageID, initSubmitListener, initLoginListener);
+    MODEL.changePage(pageID, initSubmitListener);
   } else if (pageID == "books"){
     MODEL.changePage(pageID, buyNow);
   } /*else if(pageID == subPageID) {
@@ -81,31 +81,31 @@ function buyNow(){
 //     console.log(fileName + ' ' +log);
 // }
 
-function initLoginListener() {
-    $("#login").on('click', function (e){
-        console.log("login");
+// function initLoginListener() {
+//     $("#login").on('click', function (e){
+//         console.log("login");
 
-        let le = $("#lgEmail").val();
-        let lp = $("#lgPw").val();
+//         let le = $("#lgEmail").val();
+//         let lp = $("#lgPw").val();
 
-        if(le == ''){
-            alert ('Enter email.');
+//         if(le == ''){
+//             alert ('Enter email.');
 
-        }else if (lp == ''){
-            alert ('Enter password.');
-        } else{
-            console.log("hi");
-            let userLogin = {
-                email: le,
-                password: lp,
+//         }else if (lp == ''){
+//             alert ('Enter password.');
+//         } else{
+//             console.log("hi");
+//             let userLogin = {
+//                 email: le,
+//                 password: lp,
 
-            };
+//             };
 
-            MODEL.setUserInfo(userObj);
-        }
-    });
+//             MODEL.setUserInfo(userObj);
+//         }
+//     });
 
-    }
+//     }
 
 function initSubmitListener() {
     $("#submit").on('click', function (e){

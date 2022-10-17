@@ -167,7 +167,15 @@ export function changePage(pageID, callback,subPageID) {
              callback();
             });
         
-        } else if (pageID == "books"){
+        }  else if (pageID == "account"){
+          $.get(`pages/account/account.html`,
+          function(data){
+              // console.log('data ' + data);
+             $('#app').html(data);
+             callback();
+
+          });
+      }else if (pageID == "books"){
             $.get(`pages/${pageID}/${pageID}.html`,
             function(data){
                 // console.log('data ' + data);
